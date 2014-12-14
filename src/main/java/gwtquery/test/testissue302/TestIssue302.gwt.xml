@@ -1,0 +1,8 @@
+<module rename-to='TestIssue302'>
+    <inherits name='com.google.gwt.query.Query'/>
+    <replace-with class="gwtquery.test.testissue302.client.TestIssue302SelectorEngine">
+        <when-type-assignable class="com.google.gwt.query.client.impl.SelectorEngine"/>
+    </replace-with>
+    <entry-point class='gwtquery.test.testissue302.client.TestIssue302'/>
+</module>
+    
